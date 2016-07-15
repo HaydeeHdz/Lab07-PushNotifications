@@ -7,27 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F18698617257E5802A6C49C /* Pods_PushNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFC3B8B65FEA6D3C473258C /* Pods_PushNotifications.framework */; };
 		6EEDA90A1D3573A300E58BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA9091D3573A300E58BEB /* main.m */; };
 		6EEDA90D1D3573A300E58BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA90C1D3573A300E58BEB /* AppDelegate.m */; };
-		6EEDA9101D3573A300E58BEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA90F1D3573A300E58BEB /* ViewController.m */; };
+		6EEDA9101D3573A300E58BEB /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA90F1D3573A300E58BEB /* Start.m */; };
 		6EEDA9131D3573A300E58BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9111D3573A300E58BEB /* Main.storyboard */; };
 		6EEDA9161D3573A300E58BEB /* PushNotifications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA9141D3573A300E58BEB /* PushNotifications.xcdatamodeld */; };
 		6EEDA9181D3573A300E58BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9171D3573A300E58BEB /* Assets.xcassets */; };
-		6EEDA91B1D3573A300E58BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9191D3573A300E58BEB /* LaunchScreen.storyboard */; };
+		6EEDA9281D36182200E58BEB /* cellStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA9261D36182200E58BEB /* cellStart.m */; };
+		6EEDA9291D36182200E58BEB /* cellStart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9271D36182200E58BEB /* cellStart.xib */; };
+		6EEDA92E1D36F27F00E58BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA92C1D36F27F00E58BEB /* LaunchScreen.storyboard */; };
+		6EEDA9601D37277900E58BEB /* aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9561D37277900E58BEB /* aguascalientes.jpg */; };
+		6EEDA9611D37277900E58BEB /* calvillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9571D37277900E58BEB /* calvillo.jpg */; };
+		6EEDA9621D37277900E58BEB /* cosio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9581D37277900E58BEB /* cosio.jpg */; };
+		6EEDA9631D37277900E58BEB /* guanajuato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9591D37277900E58BEB /* guanajuato.jpg */; };
+		6EEDA9641D37277900E58BEB /* jalisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA95A1D37277900E58BEB /* jalisco.jpg */; };
+		6EEDA9651D37277900E58BEB /* jesus_maria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA95B1D37277900E58BEB /* jesus_maria.jpg */; };
+		6EEDA9661D37277900E58BEB /* pabellon_de_arteaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA95C1D37277900E58BEB /* pabellon_de_arteaga.jpg */; };
+		6EEDA9671D37277900E58BEB /* queretaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA95D1D37277900E58BEB /* queretaro.jpg */; };
+		6EEDA9681D37277900E58BEB /* quintanaroo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA95E1D37277900E58BEB /* quintanaroo.jpg */; };
+		6EEDA9691D37277900E58BEB /* san_francisco_de_los_romo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA95F1D37277900E58BEB /* san_francisco_de_los_romo.jpg */; };
+		6EEDA96C1D372BB500E58BEB /* Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA96B1D372BB500E58BEB /* Municipios.m */; };
+		6EEDA9701D372CB900E58BEB /* cellMunicipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA96E1D372CB900E58BEB /* cellMunicipios.m */; };
+		6EEDA9711D372CB900E58BEB /* cellMunicipios.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA96F1D372CB900E58BEB /* cellMunicipios.xib */; };
+		6EEDA9741D3735B500E58BEB /* MunicipiosDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA9731D3735B500E58BEB /* MunicipiosDetails.m */; };
+		6EEDA9761D373FA900E58BEB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9751D373FA900E58BEB /* Podfile */; };
+		6EEDA9781D37511D00E58BEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EEDA9771D37511D00E58BEB /* GoogleService-Info.plist */; };
+		6EEDA97A1D3757AE00E58BEB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEDA9791D3757AE00E58BEB /* libz.tbd */; };
+		6EEDA97C1D3757BB00E58BEB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEDA97B1D3757BB00E58BEB /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F7BCE00024CE0B20E2140FA /* Pods-PushNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotifications/Pods-PushNotifications.release.xcconfig"; sourceTree = "<group>"; };
 		6EEDA9051D3573A300E58BEB /* PushNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEDA9091D3573A300E58BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EEDA90B1D3573A300E58BEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EEDA90C1D3573A300E58BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6EEDA90E1D3573A300E58BEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6EEDA90F1D3573A300E58BEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6EEDA9121D3573A300E58BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EEDA90E1D3573A300E58BEB /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		6EEDA90F1D3573A300E58BEB /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		6EEDA9151D3573A300E58BEB /* PushNotifications.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PushNotifications.xcdatamodel; sourceTree = "<group>"; };
 		6EEDA9171D3573A300E58BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EEDA91A1D3573A300E58BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EEDA91C1D3573A300E58BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EEDA9251D36182200E58BEB /* cellStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStart.h; sourceTree = "<group>"; };
+		6EEDA9261D36182200E58BEB /* cellStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellStart.m; sourceTree = "<group>"; };
+		6EEDA9271D36182200E58BEB /* cellStart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellStart.xib; sourceTree = "<group>"; };
+		6EEDA92B1D36EE4E00E58BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EEDA92D1D36F27F00E58BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PushNotifications/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EEDA9561D37277900E58BEB /* aguascalientes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aguascalientes.jpg; path = Imgs/aguascalientes.jpg; sourceTree = "<group>"; };
+		6EEDA9571D37277900E58BEB /* calvillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calvillo.jpg; path = Imgs/calvillo.jpg; sourceTree = "<group>"; };
+		6EEDA9581D37277900E58BEB /* cosio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cosio.jpg; path = Imgs/cosio.jpg; sourceTree = "<group>"; };
+		6EEDA9591D37277900E58BEB /* guanajuato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guanajuato.jpg; path = Imgs/guanajuato.jpg; sourceTree = "<group>"; };
+		6EEDA95A1D37277900E58BEB /* jalisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jalisco.jpg; path = Imgs/jalisco.jpg; sourceTree = "<group>"; };
+		6EEDA95B1D37277900E58BEB /* jesus_maria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jesus_maria.jpg; path = Imgs/jesus_maria.jpg; sourceTree = "<group>"; };
+		6EEDA95C1D37277900E58BEB /* pabellon_de_arteaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pabellon_de_arteaga.jpg; path = Imgs/pabellon_de_arteaga.jpg; sourceTree = "<group>"; };
+		6EEDA95D1D37277900E58BEB /* queretaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = queretaro.jpg; path = Imgs/queretaro.jpg; sourceTree = "<group>"; };
+		6EEDA95E1D37277900E58BEB /* quintanaroo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = quintanaroo.jpg; path = Imgs/quintanaroo.jpg; sourceTree = "<group>"; };
+		6EEDA95F1D37277900E58BEB /* san_francisco_de_los_romo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = san_francisco_de_los_romo.jpg; path = Imgs/san_francisco_de_los_romo.jpg; sourceTree = "<group>"; };
+		6EEDA96A1D372BB500E58BEB /* Municipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Municipios.h; sourceTree = "<group>"; };
+		6EEDA96B1D372BB500E58BEB /* Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Municipios.m; sourceTree = "<group>"; };
+		6EEDA96D1D372CB900E58BEB /* cellMunicipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMunicipios.h; sourceTree = "<group>"; };
+		6EEDA96E1D372CB900E58BEB /* cellMunicipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMunicipios.m; sourceTree = "<group>"; };
+		6EEDA96F1D372CB900E58BEB /* cellMunicipios.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMunicipios.xib; sourceTree = "<group>"; };
+		6EEDA9721D3735B500E58BEB /* MunicipiosDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunicipiosDetails.h; sourceTree = "<group>"; };
+		6EEDA9731D3735B500E58BEB /* MunicipiosDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunicipiosDetails.m; sourceTree = "<group>"; };
+		6EEDA9751D373FA900E58BEB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EEDA9771D37511D00E58BEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6EEDA9791D3757AE00E58BEB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6EEDA97B1D3757BB00E58BEB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F45FDD4E31B2CB7FB3F16B5D /* Pods-PushNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotifications/Pods-PushNotifications.debug.xcconfig"; sourceTree = "<group>"; };
+		FAFC3B8B65FEA6D3C473258C /* Pods_PushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +83,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEDA97C1D3757BB00E58BEB /* libstdc++.tbd in Frameworks */,
+				6EEDA97A1D3757AE00E58BEB /* libz.tbd in Frameworks */,
+				5F18698617257E5802A6C49C /* Pods_PushNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3342888AFED5D5A8D965A681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EEDA97B1D3757BB00E58BEB /* libstdc++.tbd */,
+				6EEDA9791D3757AE00E58BEB /* libz.tbd */,
+				FAFC3B8B65FEA6D3C473258C /* Pods_PushNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6EEDA8FC1D3573A300E58BEB = {
 			isa = PBXGroup;
 			children = (
+				6EEDA9751D373FA900E58BEB /* Podfile */,
 				6EEDA9071D3573A300E58BEB /* PushNotifications */,
 				6EEDA9061D3573A300E58BEB /* Products */,
+				FB15E358553FA03101FD11D9 /* Pods */,
+				3342888AFED5D5A8D965A681 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +124,14 @@
 		6EEDA9071D3573A300E58BEB /* PushNotifications */ = {
 			isa = PBXGroup;
 			children = (
-				6EEDA90B1D3573A300E58BEB /* AppDelegate.h */,
-				6EEDA90C1D3573A300E58BEB /* AppDelegate.m */,
-				6EEDA90E1D3573A300E58BEB /* ViewController.h */,
-				6EEDA90F1D3573A300E58BEB /* ViewController.m */,
+				6EEDA9771D37511D00E58BEB /* GoogleService-Info.plist */,
+				6EEDA9551D37265B00E58BEB /* Imgs */,
+				6EEDA9241D3612E900E58BEB /* Cells */,
+				6EEDA9231D3573B500E58BEB /* Controllers */,
+				6EEDA9221D3573AD00E58BEB /* Main */,
 				6EEDA9111D3573A300E58BEB /* Main.storyboard */,
 				6EEDA9171D3573A300E58BEB /* Assets.xcassets */,
-				6EEDA9191D3573A300E58BEB /* LaunchScreen.storyboard */,
+				6EEDA92C1D36F27F00E58BEB /* LaunchScreen.storyboard */,
 				6EEDA91C1D3573A300E58BEB /* Info.plist */,
 				6EEDA9141D3573A300E58BEB /* PushNotifications.xcdatamodeld */,
 				6EEDA9081D3573A300E58BEB /* Supporting Files */,
@@ -82,6 +147,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6EEDA9221D3573AD00E58BEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6EEDA90B1D3573A300E58BEB /* AppDelegate.h */,
+				6EEDA90C1D3573A300E58BEB /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		6EEDA9231D3573B500E58BEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EEDA90E1D3573A300E58BEB /* Start.h */,
+				6EEDA90F1D3573A300E58BEB /* Start.m */,
+				6EEDA96A1D372BB500E58BEB /* Municipios.h */,
+				6EEDA96B1D372BB500E58BEB /* Municipios.m */,
+				6EEDA9721D3735B500E58BEB /* MunicipiosDetails.h */,
+				6EEDA9731D3735B500E58BEB /* MunicipiosDetails.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6EEDA9241D3612E900E58BEB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6EEDA9251D36182200E58BEB /* cellStart.h */,
+				6EEDA9261D36182200E58BEB /* cellStart.m */,
+				6EEDA9271D36182200E58BEB /* cellStart.xib */,
+				6EEDA96D1D372CB900E58BEB /* cellMunicipios.h */,
+				6EEDA96E1D372CB900E58BEB /* cellMunicipios.m */,
+				6EEDA96F1D372CB900E58BEB /* cellMunicipios.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6EEDA9551D37265B00E58BEB /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				6EEDA9561D37277900E58BEB /* aguascalientes.jpg */,
+				6EEDA9571D37277900E58BEB /* calvillo.jpg */,
+				6EEDA9581D37277900E58BEB /* cosio.jpg */,
+				6EEDA9591D37277900E58BEB /* guanajuato.jpg */,
+				6EEDA95A1D37277900E58BEB /* jalisco.jpg */,
+				6EEDA95B1D37277900E58BEB /* jesus_maria.jpg */,
+				6EEDA95C1D37277900E58BEB /* pabellon_de_arteaga.jpg */,
+				6EEDA95D1D37277900E58BEB /* queretaro.jpg */,
+				6EEDA95E1D37277900E58BEB /* quintanaroo.jpg */,
+				6EEDA95F1D37277900E58BEB /* san_francisco_de_los_romo.jpg */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		FB15E358553FA03101FD11D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F45FDD4E31B2CB7FB3F16B5D /* Pods-PushNotifications.debug.xcconfig */,
+				1F7BCE00024CE0B20E2140FA /* Pods-PushNotifications.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +215,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EEDA91F1D3573A300E58BEB /* Build configuration list for PBXNativeTarget "PushNotifications" */;
 			buildPhases = (
+				6223DB370A7376B9CC889A36 /* [CP] Check Pods Manifest.lock */,
 				6EEDA9011D3573A300E58BEB /* Sources */,
 				6EEDA9021D3573A300E58BEB /* Frameworks */,
 				6EEDA9031D3573A300E58BEB /* Resources */,
+				4A55D5EA9387B221833A4FF8 /* [CP] Embed Pods Frameworks */,
+				A75EC5E32364FF97BCDD37A2 /* [CP] Copy Pods Resources */,
+				6E1DE1AB1D383F2400E0BE19 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -113,6 +243,7 @@
 				TargetAttributes = {
 					6EEDA9041D3573A300E58BEB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QXF33N93KH;
 					};
 				};
 			};
@@ -139,13 +270,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EEDA91B1D3573A300E58BEB /* LaunchScreen.storyboard in Resources */,
+				6EEDA9671D37277900E58BEB /* queretaro.jpg in Resources */,
+				6EEDA9291D36182200E58BEB /* cellStart.xib in Resources */,
+				6EEDA92E1D36F27F00E58BEB /* LaunchScreen.storyboard in Resources */,
 				6EEDA9181D3573A300E58BEB /* Assets.xcassets in Resources */,
+				6EEDA9621D37277900E58BEB /* cosio.jpg in Resources */,
+				6EEDA9661D37277900E58BEB /* pabellon_de_arteaga.jpg in Resources */,
+				6EEDA9711D372CB900E58BEB /* cellMunicipios.xib in Resources */,
+				6EEDA9631D37277900E58BEB /* guanajuato.jpg in Resources */,
+				6EEDA9651D37277900E58BEB /* jesus_maria.jpg in Resources */,
+				6EEDA9691D37277900E58BEB /* san_francisco_de_los_romo.jpg in Resources */,
+				6EEDA9761D373FA900E58BEB /* Podfile in Resources */,
 				6EEDA9131D3573A300E58BEB /* Main.storyboard in Resources */,
+				6EEDA9781D37511D00E58BEB /* GoogleService-Info.plist in Resources */,
+				6EEDA9681D37277900E58BEB /* quintanaroo.jpg in Resources */,
+				6EEDA9601D37277900E58BEB /* aguascalientes.jpg in Resources */,
+				6EEDA9641D37277900E58BEB /* jalisco.jpg in Resources */,
+				6EEDA9611D37277900E58BEB /* calvillo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A55D5EA9387B221833A4FF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotifications/Pods-PushNotifications-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6223DB370A7376B9CC889A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1DE1AB1D383F2400E0BE19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 71539e06e116345808637f5061c69787760ef6ac aedad348846258d608a87e8a0184dea823e6b23182480be998d69e0a08491f80";
+		};
+		A75EC5E32364FF97BCDD37A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotifications/Pods-PushNotifications-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6EEDA9011D3573A300E58BEB /* Sources */ = {
@@ -153,7 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EEDA9161D3573A300E58BEB /* PushNotifications.xcdatamodeld in Sources */,
-				6EEDA9101D3573A300E58BEB /* ViewController.m in Sources */,
+				6EEDA9281D36182200E58BEB /* cellStart.m in Sources */,
+				6EEDA9101D3573A300E58BEB /* Start.m in Sources */,
+				6EEDA9701D372CB900E58BEB /* cellMunicipios.m in Sources */,
+				6EEDA9741D3735B500E58BEB /* MunicipiosDetails.m in Sources */,
+				6EEDA96C1D372BB500E58BEB /* Municipios.m in Sources */,
 				6EEDA90D1D3573A300E58BEB /* AppDelegate.m in Sources */,
 				6EEDA90A1D3573A300E58BEB /* main.m in Sources */,
 			);
@@ -165,17 +375,18 @@
 		6EEDA9111D3573A300E58BEB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EEDA9121D3573A300E58BEB /* Base */,
+				6EEDA92B1D36EE4E00E58BEB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6EEDA9191D3573A300E58BEB /* LaunchScreen.storyboard */ = {
+		6EEDA92C1D36F27F00E58BEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EEDA91A1D3573A300E58BEB /* Base */,
+				6EEDA92D1D36F27F00E58BEB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -244,7 +455,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -267,23 +478,31 @@
 		};
 		6EEDA9201D3573A300E58BEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45FDD4E31B2CB7FB3F16B5D /* Pods-PushNotifications.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PushNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HaydeHdz.PushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		6EEDA9211D3573A300E58BEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7BCE00024CE0B20E2140FA /* Pods-PushNotifications.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PushNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HaydeHdz.PushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -306,6 +525,7 @@
 				6EEDA9211D3573A300E58BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
